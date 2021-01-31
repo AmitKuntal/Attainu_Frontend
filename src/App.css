@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+.cities{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.city{
+  margin: .1vw;
+  padding: 2vw;
+  display: flex;
+  flex-flow: column;
+  background-color: cadetblue;
+  color: white;
+  width: 10%;
+  text-align: center;
+  border-radius: 9px;
+}
+
+.city_name{
+  font-size: 2vw;
+  font-weight: 700;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
